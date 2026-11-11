@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lens Equation</title>
+    <link rel="stylesheet" href="Library/topic-styles.css" />
+  </head>
+  <body class="page-enter">
+    <div class="container">
+      <a class="back" href="CHAPTER_8 Lenses.html">← Back to chapter</a>
+      <nav class="topic-navigation" aria-label="Chapter topics">
+        <a href="Refraction at a curved surface.html">8.1 Curved Surface</a>
+        <a href="Lens equation.html" aria-current="page">8.2 Lens Equation</a>
+        <a href="Refraction through lenses.html">8.3 Refraction through Lenses</a>
+        <a href="Power of a lens.html">8.4 Power of a Lens</a>
+      </nav>
+      <div class="card">
+        <h1>8.2 Lens Equation</h1>
+
+        <p>The lens equation is used to find the position of the image formed by a lens. It relates the object distance, image distance, and focal length of the lens.</p>
+        <img id="lightrays" class="diagram" src="Assets/8.2.png" alt="Path of light rays diagram" />
+        <p>For the first refraction at surface S₁,</p>
+        <div class="formula">n₁/u₁ + n₂/v₁ = (n₂ − n₁)/R₁</div>
+
+        <p>For the second refraction at surface S₂,</p>
+        <div class="formula">n₂/u₂ + n₁/v₂ = (n₁ − n₂)/R₂</div>
+
+        <p>The image I₁ formed at the first surface acts as the object for the second surface of the lens. Hence, the object distance for the second surface is taken as u₂ = −v₁ if the thickness of the lens is neglected. The negative sign is inserted because I₁ is a virtual object.</p>
+
+        <div class="equation">u₂ = −v₁</div>
+
+        <p>Since the thickness of the lens l is small compared to object and image distances, using u₂ = −v₁ in Eq. (ii) and with Eq. (i), we obtain</p>
+
+        <div class="equation">n₁/u₁ + n₁/v₂ = (n₂ − n₁)(1/R₁ − 1/R₂)</div>
+
+        <p>Considering the lens as a single optical system, the object distance for the lens is u = u₁ and the image distance is v = v₂. If the medium 1 is air, n₁ = 1 and n₂ = n, then Eq. (iii) becomes</p>
+
+        <div class="equation">1/u + 1/v = (n − 1)(1/R₁ − 1/R₂)</div>
+
+        <p>We define the focal length f of a lens as the image distance when the object is at infinity. Hence, substituting u = ∞ and v = f in Eq. (8.3), we obtain the lens-maker's equation.</p>
+
+        <div class="equation">1/f = (n − 1)(1/R₁ − 1/R₂)</div>
+
+        <p>Combining Eq. (8.3) and Eq. (8.4), we obtain the lens equation.</p>
+
+        <div class="equation">1/u + 1/v = 1/f</div>
+
+        <p>This is the general formula for the thin lens. The object distance u and the image distance v are measured from the centre of the lens P. The position and nature of image formed by the lens can be calculated by using the lens formula.</p>
+
+        <h2>The Sign Convention for the Lens</h2>
+        <p>The images formed by the lenses may either be real or virtual, and erect or inverted. Hence the following sign conventions are required in applying lens formulae to solve the problems.</p>
+
+        <p><strong>(i)</strong> Distances of real object, real image and real focus are positive. Distances of virtual object, virtual image and virtual focus are negative.</p>
+        <p><strong>(ii)</strong> The perpendicular distance measured above the principal axis is positive and that below the principal axis is negative.</p>
+        
+        <h2>Example 8.2</h2>
+        <p>The radii of curvature of two curved surfaces are 20 cm and 10 cm, as shown in the given figure. Find the focal length of a lens whose refractive index is 1.5.</p>
+
+        <div class="equation">n = 1.5, R₁ = 20 cm, R₂ = −10 cm</div>
+
+        <p>By using the lens-maker's equation,</p>
+
+        <div class="equation">1/f = (n − 1)(1/R₁ − 1/R₂)</div>
+        <div class="equation">1/f = (1.5 − 1)(1/20 − 1/−10)</div>
+
+        <p>Therefore, the focal length is</p>
+        <div class="equation">f = 13.33 cm</div>
+
+        <p>Where:</p>
+        <p><strong>f</strong> = focal length of the lens<br />
+        <strong>v</strong> = image distance from the lens<br />
+        <strong>u</strong> = object distance from the lens</p>
+
+        <p>This equation helps us determine whether the image is real or virtual, upright or inverted, and whether it is magnified or reduced.</p>
+
+        <p>For a convex lens, the focal length is positive in the usual sign convention. For a concave lens, the focal length is negative. The sign of the image distance tells us the type of image formed.</p>
+
+        <h2>Reviewed Exercise</h2>
+        <p><strong>Write the lens-maker's equation for a lens which is immersed in water.</strong></p>
+
+        <p>When the lens is immersed in water, both the surrounding medium and the lens material refractive indices must be considered. If the refractive index of the lens is n and the refractive index of water is n_w, then the effective refractive index relative to water is n' = (n/n_w).</p>
+
+        <div class="equation">1/f = ((n/n_w) − 1)(1/R₁ − 1/R₂)</div>
+
+        <p>where R₁ and R₂ are the radii of curvature of the two surfaces of the lens. This is the lens-maker's equation for a lens immersed in water.</p>
+        <p><strong>Key Words:</strong> radius of curvature, focal length, lens-maker's equation</p>
+      </div>
+      <nav class="topic-navigation" aria-label="Chapter topics">
+        <a href="Refraction at a curved surface.html">8.1 Curved Surface</a>
+        <a href="Lens equation.html" aria-current="page">8.2 Lens Equation</a>
+        <a href="Refraction through lenses.html">8.3 Refraction through Lenses</a>
+        <a href="Power of a lens.html">8.4 Power of a Lens</a>
+      </nav>
+      <a class="back back-to-home" href="CHAPTER_8 Lenses.html">↑ Back to front page</a>
+    </div>
+    <script src="Library/Animation.Js" defer></script>
+  </body>
+</html>
